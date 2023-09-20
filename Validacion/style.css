@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #110303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url('https://revistademanabi.files.wordpress.com/2022/02/uleam-campus-matriz-en-manta.jpeg');
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contenedor {
+    background: #4ac3e8;
+    border-radius: 2px;
+    box-shadow: 19px 20px 8px -9px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+
+.cabecera {
+    background: #4ac3e8;
+    color:azure;
+    text-align: center;
+    border-bottom: 1px solid #4ac3e8;
+    padding: 20px 40px;
+}
+
+
+#formulario {
+    padding: 30px 20px;
+}
+
+.form-control {    
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font:weight 200px
+}
+
+.form-control input {
+    border: none;
+    background-color: azure;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    height: 1px;    
+    border-radius: 15px;
+}
+
+.form-control, input:focus {
+    outline: none;
+}
+
+.form-control.ok input {
+    border: 0.1px solid;
+    border-color: #08ffc8;
+}
+.form-control.falla input {
+    border: 0.1px solid;
+    border-color: #fe5f55;
+}
+
+
+#formulario button {
+    background: #1b668f;
+    border:1px solid #324fa6;
+    border-radius: 2px;
+    color: azure;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.form-control p {
+    visibility: visible;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+}
+
+.form-control.falla p {
+    visibility: visible;
+    color:#e74c3c;
+}

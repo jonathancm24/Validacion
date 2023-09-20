@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de formularios</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+rel='stylesheet'>
+
+</head>
+
+<body>
+    <script src="./Scripts.js"></script>
+    <div class="contenedor">
+
+        <div class="cabecera">
+            <h2>Registro de datos</h2>
+        </div>
+        <form id="formulario">
+
+            <div class="form-control">
+                <label for="usuario">Nombre de usuario</label>
+                <input id="usuario" type="text" autocomplete="off" required >
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" autocomplete="off" required >
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="pass">Password</label>
+                <input id="pass" type="password" autocomplete="off" required >
+                <p></p>                
+            </div>
+
+            <div class="form-control">
+                <label for="passConfirma">Confirmar Password</label>
+                <input id="passConfirma" type="password" autocomplete="off" required >
+                <p></p>                
+            </div>
+
+            <button>Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
